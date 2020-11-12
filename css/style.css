@@ -1,0 +1,181 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 100vh;
+    background-color: #e9eaee;
+    font-family: "Montserrat", sans-serif;
+    background-image: url("../images/screen-0.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  body .bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.4;
+    z-index: -88;
+  }
+  
+  .logo {
+    color: white;
+    position: absolute;
+    top: 22px;
+    left: 22px;
+  }
+  .logo h1 {
+    font-size: 30px;
+  }
+  
+  .nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 350px;
+    background-color: rgba(42, 69, 138, 0.603);
+    height: 100vh;
+  }
+  .nav div {
+    margin-bottom: 45px;
+    padding: 25px;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .nav div i {
+    display: block;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+  }
+  .nav ul {
+    list-style: none;
+    text-align: center;
+  }
+  .nav ul li {
+    margin-bottom: 45px;
+  }
+  .nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  .nav ul li a:hover {
+    color: black;
+    transition: all 0.3s;
+  }
+  
+  .condic {
+    padding-top: 130px;
+  }
+  
+  .myform .container {
+    width: 600px;
+    height: 530px;
+    margin: auto;
+    border-radius: 8px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 0px 14px 1px black;
+  }
+  .myform .container form {
+    width: 55%;
+    height: 100%;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 1px 1px 12px 0px gray;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    align-items: center;
+  }
+  .myform .container form h2 {
+    margin-top: 8px;
+    margin-bottom: 15px;
+    color: #0403ed;
+  }
+  .myform .container form h4 {
+    margin-bottom: 45px;
+  }
+  .myform .container form div {
+    width: 100%;
+    position: relative;
+  }
+  .myform .container form div i {
+    position: absolute;
+    top: 11px;
+    left: 48px;
+    font-size: 20px;
+  }
+  .myform .container form div .email {
+    margin-bottom: 45px;
+    width: 100%;
+    border-radius: 100px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    box-shadow: inset 1px 2px 3px 1px grey;
+    text-align: center;
+    font-size: 17px;
+  }
+  .myform .container form div .email:focus {
+    background-color: rgba(240, 230, 140, 0.267);
+  }
+  .myform .container form div .email:focus + i {
+    display: none;
+  }
+  .myform .container form div .password {
+    margin-bottom: 20px;
+    width: 100%;
+    border-radius: 100px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    box-shadow: inset 1px 2px 3px 1px grey;
+    text-align: center;
+    font-size: 17px;
+  }
+  .myform .container form div .password:focus {
+    background-color: rgba(240, 230, 140, 0.267);
+  }
+  .myform .container form div .password:focus + i {
+    display: none;
+  }
+  .myform .container form .submit {
+    margin-bottom: 20px;
+    width: 100%;
+    border-radius: 100px;
+    padding: 13px;
+    background-color: #0403ed;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  .myform .container form .submit:hover {
+    background-color: whitesmoke;
+    border: 1px solid #0403ed;
+    color: #0403ed;
+    transition: all 0.3s;
+  }
+  .myform .container form p {
+    color: black;
+    font-size: 15px;
+  }
+  .myform .container form p span {
+    color: #0403ed;
+    cursor: pointer;
+  }
+  .myform .container form p span:hover {
+    transition: all 0.3s;
+    text-decoration: underline;
+    text-decoration-color: #0403ed;
+  }
+  
